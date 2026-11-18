@@ -1,0 +1,4 @@
+index,timestep_size,batch_size,sync_barrier,inference_nn_extensions,accuracy,loss,elapsed_time
+0,20000,256,none,async_torch/1/membrane_potential+log_spike_dynamics+stop_on_output/8,0.6742424242424242,1.909914291266239,103.39532160758972
+1,20000,256,none,async_torch/8/membrane_potential+log_spike_dynamics+stop_on_output/1,0.7196969696969697,1.8773623452042087,46.951974868774414
+2,20000,256,none,async_torch/128/membrane_potential+log_spike_dynamics,0.7234848484848485,1.859222867272117,35.14244508743286

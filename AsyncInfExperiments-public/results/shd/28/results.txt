@@ -1,0 +1,13 @@
+index,timestep_size,batch_size,sync_barrier,inference_nn_extensions,accuracy,loss,elapsed_time
+0,10000,512,none,async_torch/8/membrane_potential+log_spike_dynamics,0.806095406360424,2.637247519442555,46.52859425544739
+1,10000,512,none,async_torch/8/membrane_potential+log_spike_dynamics+stop_on_output/0,0.818904593639576,2.649607438501958,33.97240591049194
+2,10000,512,none,async_torch/8/membrane_potential+log_spike_dynamics+stop_on_output/1,0.8149293286219081,2.63917968803918,36.73589849472046
+3,10000,512,none,async_torch/8/membrane_potential+log_spike_dynamics+stop_on_output/2,0.8052120141342756,2.6375571476697077,40.044785261154175
+4,10000,512,none,async_torch/8/membrane_potential+log_spike_dynamics+stop_on_output/3,0.808303886925795,2.636845255066565,42.82508611679077
+5,10000,512,none,async_torch/8/membrane_potential+log_spike_dynamics+stop_on_output/4,0.8034452296819788,2.637024654516483,44.99188446998596
+6,10000,512,none,async_torch/8/membrane_potential+log_spike_dynamics+stop_on_output/5,0.801678445229682,2.637103838128673,46.672876596450806
+7,10000,512,none,async_torch/8/membrane_potential+log_spike_dynamics+stop_on_output/6,0.8065371024734982,2.63707479655532,46.03363513946533
+8,10000,512,none,async_torch/8/membrane_potential+log_spike_dynamics+stop_on_output/7,0.8069787985865724,2.637199460828262,46.56769323348999
+9,10000,512,none,async_torch/8/membrane_potential+log_spike_dynamics+stop_on_output/8,0.8056537102473498,2.6373045360241676,46.57286620140076
+10,10000,512,none,async_torch/8/membrane_potential+log_spike_dynamics+stop_on_output/9,0.8052120141342756,2.63730996826091,47.37074303627014
+11,10000,512,none,async_torch/8/membrane_potential+log_spike_dynamics+stop_on_output/10,0.8056537102473498,2.6372789308797344,46.51537370681763

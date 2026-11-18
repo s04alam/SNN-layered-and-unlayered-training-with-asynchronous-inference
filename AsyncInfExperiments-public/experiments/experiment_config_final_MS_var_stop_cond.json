@@ -1,0 +1,167 @@
+{
+    "dvsgesture": {
+        "matrix": {
+            "batch_size": 256,
+            "experiments": [
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/0", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/1", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/2", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/3", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/4", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/5", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/6", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/7", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/8", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/9", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/10", "log_spike_dynamics"]
+                }
+            ]
+        }
+    },
+    "nmnist": {
+        "matrix": {
+            "batch_size": 512,
+            "experiments": [
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/0", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/1", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/2", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/3", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/4", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/5", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/6", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/7", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/8", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/9", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/10", "log_spike_dynamics"]
+                }
+            ]
+        }
+    },
+    "shd": {
+        "matrix": {
+            "batch_size": 512,
+            "experiments": [
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/0", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/1", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/2", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/3", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/4", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/5", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/6", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/7", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/8", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/9", "log_spike_dynamics"]
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/membrane_potential", "stop_on_output/10", "log_spike_dynamics"]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+index,timestep_size,batch_size,sync_barrier,inference_nn_extensions,accuracy,loss,elapsed_time
+0,20000,256,none,async_torch/8/random+log_spike_dynamics,0.6931818181818182,1.8397229729276714,55.56701731681824
+1,20000,256,none,async_torch/8/random+log_spike_dynamics+stop_on_output/0,0.7234848484848485,1.9535118594314114,50.63745999336243
+2,20000,256,none,async_torch/8/random+log_spike_dynamics+stop_on_output/1,0.7196969696969697,1.9045927235574434,51.1838493347168
+3,20000,256,none,async_torch/8/random+log_spike_dynamics+stop_on_output/2,0.7424242424242424,1.8791623404531768,51.38576316833496
+4,20000,256,none,async_torch/8/random+log_spike_dynamics+stop_on_output/3,0.7159090909090909,1.8663495490045259,52.02131628990173
+5,20000,256,none,async_torch/8/random+log_spike_dynamics+stop_on_output/4,0.7272727272727273,1.8563836487856777,52.15688347816467
+6,20000,256,none,async_torch/8/random+log_spike_dynamics+stop_on_output/5,0.7159090909090909,1.8496830029921099,53.001275300979614
+7,20000,256,none,async_torch/8/random+log_spike_dynamics+stop_on_output/6,0.7234848484848485,1.8453961646918096,53.28255748748779
+8,20000,256,none,async_torch/8/random+log_spike_dynamics+stop_on_output/7,0.7196969696969697,1.8444799076427112,54.16723966598511
+9,20000,256,none,async_torch/8/random+log_spike_dynamics+stop_on_output/8,0.7272727272727273,1.8424844886317397,54.05773949623108
+10,20000,256,none,async_torch/8/random+log_spike_dynamics+stop_on_output/9,0.6931818181818182,1.8395570335966167,54.42349648475647
+11,20000,256,none,async_torch/8/random+log_spike_dynamics+stop_on_output/10,0.7007575757575758,1.839433106509122,54.88422131538391

@@ -1,0 +1,4 @@
+index,timestep_size,batch_size,sync_barrier,inference_nn_extensions,accuracy,loss,elapsed_time
+0,10000,512,none,async_torch/1/random+log_spike_dynamics+stop_on_output/8,0.8203,2.0050421512603758,59.0873806476593
+1,10000,512,none,async_torch/8/random+log_spike_dynamics+stop_on_output/1,0.9473,1.721374210548401,8.599068641662598
+2,10000,512,none,async_torch/64/random+log_spike_dynamics,0.9482,1.719048198890686,5.928417205810547

@@ -1,0 +1,46 @@
+{
+    "nmnist": {
+        "matrix": {
+            "batch_size": 512,
+            "experiments": [
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/1/random", "stop_on_output/8", "log_spike_dynamics"],
+                    "tau_m": 0.001
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/random", "stop_on_output/1", "log_spike_dynamics"],
+                    "tau_m": 0.001
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/64/random", "log_spike_dynamics"],
+                    "tau_m": 0.001
+                }
+            ]
+        }
+    },
+    "shd": {
+        "matrix": {
+            "batch_size": 512,
+            "experiments": [
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/1/random", "stop_on_output/8", "log_spike_dynamics"],
+                    "tau_m": 0.001
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/8/random", "stop_on_output/1", "log_spike_dynamics"],
+                    "tau_m": 0.001
+                },
+                {
+                    "timestep_size": "model",
+                    "network_extensions": ["async_torch/128/random", "log_spike_dynamics"],
+                    "tau_m": 0.001
+                }
+            ]
+        }
+    }
+}

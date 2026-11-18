@@ -1,0 +1,4 @@
+snntorch==0.7.0
+tonic>=1.0
+pytest
+openpyxl

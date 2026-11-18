@@ -1,0 +1,40 @@
+{
+    "nmnist": {
+        "matrix": {
+            "variable_dt_save_output_with_dt": 100
+        },
+        "event": {
+            "variable_dt_save_output_with_dt": 1,
+            "limit_n_samples": 1000,
+            "track_order_recordings": false,
+            "order_histogram_bins": 1000
+        }
+    },
+    "circle": {
+        "matrix": {
+            "variable_dt_save_output_with_dt": 1
+        },
+        "event": {
+            "variable_dt_save_output_with_dt": 1,
+            "track_order_recordings": true,
+            "order_histogram_bins": 10,
+            "batch_size": 1
+        }
+    },
+    "shd": {
+        "matrix": {
+            "variable_dt_save_output_with_dt": 100
+        },
+        "event": {
+            "variable_dt_save_output_with_dt": 1,
+            "limit_n_samples": 1000,
+            "track_order_recordings": false,
+            "order_histogram_bins": 1000
+        }
+    },
+    "dvsgesture": {
+        "matrix": {
+            "variable_dt_save_output_with_dt": 10000
+        }
+    }
+}

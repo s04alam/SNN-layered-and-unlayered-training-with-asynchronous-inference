@@ -1,0 +1,151 @@
+{
+    "nmnist": {
+        "event": {
+            "batch_size": 30,
+            "experiments": [
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/64","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/56","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/48","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/40","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/32","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/24","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/16","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/8","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/1","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "layer",
+                    "network_extensions": ["barrier_lif/1","input_barrier"]
+                }
+            ]
+        },
+        "matrix": {
+            "experiments": [
+                {
+                    "timestep_size": "model",
+                    "batch_size": 256
+                }
+            ]
+        }
+    },
+    "circle": {
+        "event": {
+            "experiments": [
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/6","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/4","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/2","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/1","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "layer",
+                    "network_extensions": ["barrier_lif/1","input_barrier"]
+                }
+            ]
+        },
+        "matrix": {
+            "experiments": [
+                {
+                    "timestep_size": "model",
+                    "batch_size": 128
+                }
+            ]
+        }
+    },
+    "shd": {
+        "event": {
+            "batch_size": 15,
+            "experiments": [
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/256","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/192","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/128","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/64","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "none",
+                    "network_extensions": ["barrier_lif/1","input_barrier"]
+                },
+                {
+                    "timestep_size": "model",
+                    "sync_barrier": "layer",
+                    "network_extensions": ["barrier_lif/1","input_barrier"]
+                }
+            ]
+        },
+        "matrix": {
+            "experiments": [
+                {
+                    "timestep_size": "model",
+                    "batch_size": 1024
+                }
+            ]
+        }
+    }
+}
